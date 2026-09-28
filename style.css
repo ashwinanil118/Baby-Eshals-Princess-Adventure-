@@ -1,0 +1,10 @@
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f9c6df;font-family:Georgia,serif}
+body{display:grid;place-items:center;background:radial-gradient(circle at 50% 30%,#fff0f8,#f4a9cf)}
+#gameShell{position:relative;width:min(100vw,1536px);aspect-ratio:3/2;overflow:hidden;background:#f7b4d5;box-shadow:0 24px 80px #8b285b55}
+canvas{display:block;width:100%;height:100%;image-rendering:pixelated}
+.overlay{position:absolute;inset:0;display:grid;place-items:center;background:#e879ad55;backdrop-filter:blur(4px)}
+.hidden{display:none}.card{width:min(650px,88%);text-align:center;background:#fff7fbf2;border:5px solid #ef8fbd;padding:34px;border-radius:28px;box-shadow:0 12px 0 #bd4c83,0 30px 80px #7d315655;color:#8f315f}
+.eyebrow{font:bold 15px Arial,sans-serif;letter-spacing:3px;color:#d4518f}h1{font-size:clamp(32px,5vw,58px);line-height:1.05;margin:10px 0 15px;color:#b83977;text-shadow:0 2px #fff}
+p{font:18px/1.5 Arial,sans-serif}.controls{background:#ffe2f0;padding:14px;border:2px solid #f4a5c9;border-radius:16px}
+button{font:bold 20px Arial,sans-serif;border:3px solid #8f315f;border-radius:12px;background:#e65b9a;color:#fff;padding:14px 30px;box-shadow:0 6px 0 #8f315f;cursor:pointer}
+button:active{transform:translateY(4px);box-shadow:0 2px 0 #8f315f}.bigheart{font-size:80px;color:#ef4e96}.love{font-weight:bold;color:#b83977}

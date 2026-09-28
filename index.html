@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eshal's Pink Princess Adventure</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="gameShell">
+  <canvas id="game" width="1536" height="1024"></canvas>
+  <div id="loading" class="overlay"><div class="card"><h1>Loading Eshal's World...</h1><p>♡</p></div></div>
+  <div id="start" class="overlay hidden">
+    <div class="card">
+      <div class="eyebrow">♡ MADE FOR ESHAL ♡</div>
+      <h1>Eshal's Pink Princess Adventure</h1>
+      <p>Collect all 22 hearts and reach the castle.</p>
+      <p class="controls"><b>A / ←</b> left &nbsp; <b>D / →</b> right<br><b>W / ↑ / Space</b> jump &nbsp; <b>S / ↓</b> crouch / drop</p>
+      <button id="play">PLAY ♡</button>
+    </div>
+  </div>
+  <div id="end" class="overlay hidden">
+    <div class="card">
+      <div class="bigheart">♥</div>
+      <h1>Happy Birthday, Eshal!</h1>
+      <p>You made it through your little pink world.</p>
+      <p class="love">Every heart was yours from the beginning.</p>
+      <p>— Ashwin ♡</p>
+      <button id="again">PLAY AGAIN</button>
+    </div>
+  </div>
+</div>
+<audio id="music" src="reflection_piano.mp3" loop preload="auto"></audio>
+<script src="game.js"></script>
+</body>
+</html>
